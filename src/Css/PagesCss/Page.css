@@ -1,0 +1,48 @@
+.page {
+    height: 90vh;
+    padding: 20px 40px;
+    overflow: scroll;
+}
+
+.pageShow {
+    animation: animShow 1s ease;
+}
+
+@keyframes animShow {
+    0%{transform: translate(-100%, 0%);}
+    100%{transform: translate(0%, 0%);}
+}
+
+.pageUnshow {
+    opacity: 0;
+}
+
+.Bg {
+    background: linear-gradient(to left, var(--bgColor), var(--bgColorDark));
+}
+
+.page__section:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.page h2 {
+    margin-bottom: 20px;
+    color: var(--goldColor);
+}
+
+.page p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.page ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+}
+
+.page ul li:first-child {
+    margin: 0px 0px 10px -20px;
+}
+
+.page ul li {
+    margin-bottom: 10px;
+}

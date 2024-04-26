@@ -1,0 +1,17 @@
+.header {
+    position: sticky;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--bgColorDark);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 30px;
+}

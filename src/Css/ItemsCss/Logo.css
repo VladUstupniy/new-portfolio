@@ -1,0 +1,28 @@
+.logo {
+    text-decoration: none;
+    animation: turn 8.0s infinite linear, changeColor 18.0s infinite linear;
+    color: var(--textColorDark);
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo:hover {
+    animation: none;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes changeColor {
+    0% {color:var(--goldColor)}
+    20% {color:var(--pinkColor)}
+    40% {color:var(--blueColor)}
+    60% {color:var(--redColor)}
+    80% {color:var(--greenColor)}
+    100% {color:var(--goldColor)}
+}

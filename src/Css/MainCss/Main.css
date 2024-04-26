@@ -1,0 +1,18 @@
+.main {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr;
+}
+
+@media (max-width: 920px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.main__welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
