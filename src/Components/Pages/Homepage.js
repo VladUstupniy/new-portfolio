@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import '../../Css/PagesCss/Homepage.css';
+import '../Css/PagesCss/Homepage.css';
 
 function Homepage(){
     const [isShowPage, setIsShowPage] = useState(false);
