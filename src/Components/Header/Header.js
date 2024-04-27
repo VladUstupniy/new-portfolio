@@ -1,7 +1,7 @@
 import {useState} from 'react';
-import '../Css/HeaderCss/Header.css';
-import '../Css/ItemsCss/ModalWindow.css';
-import '../Css/ItemsCss/Buttons.css';
+import '../../Css/HeaderCss/Header.css';
+import '../../Css/ItemsCss/ModalWindow.css';
+import '../../Css/ItemsCss/Buttons.css';
 import Logo from '../Items/Logo';
 
 function Header () {

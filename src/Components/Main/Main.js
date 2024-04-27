@@ -1,7 +1,7 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 
-import '../Css/MainCss/Main.css';
+import '../../Css/MainCss/Main.css';
 
 import Sidebar from '../Sidebar/Sidebar';
 import Homepage from '../Pages/Homepage';

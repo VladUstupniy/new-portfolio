@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import '../Css/PagesCss/Page.css';
+import '../../Css/PagesCss/Page.css';
 
 function UnityPage(){
     const [isShowPage, setIsShowPage] = useState(false);
