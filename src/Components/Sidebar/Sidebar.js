@@ -19,7 +19,7 @@ function Sidebar() {
     return(
         <>
             <button className='menuButton' onClick={handleClick}>меню</button>
-            <aside className={btnState ? 'sidebar' : 'sidebar sidebarVisible'}>
+            <aside className={`sidebar ${btnState ? 'sidebarUnvisible' : 'sidebarVisible'}`}>
                 <ul className='sidebar__list'>
                     <NavLink to='/AboutMePage' 
                         className={({ isActive }) => isActive ? "sidebar__link--active" : "sidebar__link--not-active"}
