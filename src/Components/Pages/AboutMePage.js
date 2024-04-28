@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import '../../Css/PagesCss/Page.css';
 
-function AboutMePage(){
+const AboutMePage = () => {
     const [isShowPage, setIsShowPage] = useState(false);
     useEffect(() => {
         setTimeout(() => setIsShowPage(true));
@@ -10,7 +10,7 @@ function AboutMePage(){
         <div className={`page Bg ${isShowPage ? 'pageShow' : 'pageUnshow'}`}>
             <div className='page__section'>
                 <h2>Обо мне:</h2>
-                <p>Меня зовут Уступный Владислав Владимирович. Я начинающий специалист в сфере IT-разработки.</p>
+                <p>Меня зовут Уступный Владислав Владимирович, я начинающий специалист в сфере IT-разработки</p>
                 <ul>
                     <li>Личные качества:</li>
                     <li>Ориентированность на пользователя</li>

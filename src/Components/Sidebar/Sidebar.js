@@ -8,7 +8,7 @@ import HtmlImg from '../../Img/icons/html-icon.png';
 import CssImg from '../../Img/icons/css-icon.png';
 import PythonImg from '../../Img/icons/python-icon.png';
 
-function Sidebar() {
+const Sidebar = () => {
     const [btnState, setBtnState] = useState(false);
     function handleClick(){
         setBtnState(btnState => !btnState);

@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import '../../Css/PagesCss/Page.css';
 
-function EducationPage(){
+const EducationPage = () => {
     const [isShowPage, setIsShowPage] = useState(false);
     useEffect(() => {
         setTimeout(() => setIsShowPage(true));

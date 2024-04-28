@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import '../../Css/PagesCss/Page.css';
 
-function UnityPage(){
+const UnityPage = () => {
     const [isShowPage, setIsShowPage] = useState(false);
     useEffect(() => {
         setTimeout(() => setIsShowPage(true));
