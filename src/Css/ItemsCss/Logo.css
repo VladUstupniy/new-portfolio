@@ -26,3 +26,9 @@
     80% {color:var(--greenColor)}
     100% {color:var(--goldColor)}
 }
+
+@media (min-width: 2560px) {
+    .logo {
+        font-size: 64px;
+    }
+}

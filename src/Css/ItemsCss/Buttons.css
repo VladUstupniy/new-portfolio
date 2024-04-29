@@ -22,7 +22,14 @@
         border-radius: 8px;
         padding: 15px;
         font-size: 12px;
-        font-size: 18px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .button {
+        border-radius: 15px;
+        padding: 30px;
+        font-size: 32px;
     }
 }
 

@@ -14,10 +14,12 @@
     align-items: center;
     transition: all .6s ease;
 }
+
 .modalWindow--visible {
     transform: rotate(0deg);
     transform-origin: top left;
 }
+
 .modalWindow--unvisible {
     transform: rotate(90deg);
     transform-origin: top left;
@@ -67,23 +69,43 @@
     .modalWindow {
         padding: 15px;
     }
+
     .modalWindow h2 {
         margin-bottom: 40px;
         max-width: 80vw;
         text-align: center;
         font-size: 18px;
     }
+
     .modal__item {
         display: flex;
         flex-direction: column;
         align-items: start;
     }
+
     .modal__item span {
         padding: 5px;
         font-size: 14px;
     }
+
     .modal__item a {
         padding: 5px;
         font-size: 14px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .modalWindow h2 {
+        font-size: 32px;
+    }
+
+    .modal__item span {
+        padding: 15px;
+        font-size: 28px;
+    }
+
+    .modal__item a {
+        padding: 15px;
+        font-size: 28px;
     }
 }

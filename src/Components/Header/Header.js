@@ -22,11 +22,11 @@ function Header () {
                 <div className='modal__list'>
                     <div className='modal__item'>
                         <span>Mobile phone:</span>
-                        <a href='+79684251095' target='blank'>+7(968)425-10-95</a>
+                        <a href='tel:+79684251095' target='blank'>+7(968)425-10-95</a>
                     </div>
                     <div className='modal__item'>
                         <span>Email:</span>
-                        <a href='vlad.ustupniy@yandex.ru' target='blank'>vlad.ustupniy@yandex.ru</a>
+                        <a href='mailto:vlad.ustupniy@yandex.ru' target='blank'>vlad.ustupniy@yandex.ru</a>
                     </div>
                     <div className='modal__item'>
                         <span>GitHub:</span>
@@ -34,15 +34,15 @@ function Header () {
                     </div>
                     <div className='modal__item'>
                         <span>Telegram:</span>
-                        <a href='t.me:@vladustupniy' target='blank'>@vladustupniy</a>
+                        <a href='https://t.me/vladustupniy' target='blank'>@vladustupniy</a>
                     </div>
                     <div className='modal__item'>
                         <span>Whats App:</span>
-                        <a href='+79684251095' target='blank'>+7(968)425-10-95</a>
+                        <a href='https://wa.me/+79684251095' target='blank'>+7(968)425-10-95</a>
                     </div>
                     <div className='modal__item'>
                         <span>VK:</span>
-                        <a href='https://vk.com' target='blank'>+7(968)425-10-95</a>
+                        <a href='https://vk.com/id134660750' target='blank'>Владислав Уступный</a>
                     </div>
                 </div>
                 <button className='button modal__close' onClick={ShowWindow}>X</button>

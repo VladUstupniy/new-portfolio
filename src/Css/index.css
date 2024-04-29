@@ -13,7 +13,7 @@
 /* ---------- Scrollbar ---------- */
 *, Html * {
   scrollbar-width: thin;
-  scrollbar-color: var(--textColorDark) var(--bgColor);
+  scrollbar-color: rgba(197, 153, 102, 0.3) transparent;
   /* scrollbar-arrow-color: transparent; */
 }
 *::-webkit-scrollbar,
@@ -28,7 +28,7 @@ html *::-webkit-scrollbar-track {
 }
 *::-webkit-scrollbar-thumb,
 html *::-webkit-scrollbar-thumb {
-  background-color: var(--goldColor);
+  background-color: rgba(197, 153, 102, 0.3);
   border-radius: 5px;
   /* border: 1px solid var(--bgColorDark); */
 }

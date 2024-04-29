@@ -63,3 +63,23 @@
         transform: translate(0%, 0%);
     }
 }
+
+@media (min-width: 1440px) {
+    .homepage__title {
+        font-size: 24px;
+    }
+
+    .homepage__text {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .homepage__title {
+        font-size: 38px;
+    }
+
+    .homepage__text {
+        font-size: 32px;
+    }
+}
