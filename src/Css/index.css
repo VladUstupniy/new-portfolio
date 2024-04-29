@@ -7,6 +7,39 @@
   background-color: rgba(128, 133, 143, 0.5);
   color: #21252b;
 }
+
+
+
+/* ---------- Scrollbar ---------- */
+*, Html * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--textColorDark) var(--bgColor);
+  /* scrollbar-arrow-color: transparent; */
+}
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 0px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 5px;
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: var(--goldColor);
+  border-radius: 5px;
+  /* border: 1px solid var(--bgColorDark); */
+}
+*::-webkit-scrollbar-button,
+html *::-webkit-scrollbar-button {
+  display: none;
+  color: transparent;
+  background-color: transparent;
+}
+/* ---------- // Scrollbar ---------- */
+
 html, body {
   color: var(--textColor);
   background-color: var(--bgColor);
