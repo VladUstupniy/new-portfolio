@@ -20,13 +20,8 @@
     margin-bottom: 40px;
 }
 
-.homepage__text span {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.homepage__text span:last-child {
-    margin-bottom: 0;
+.homepage__arrow {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

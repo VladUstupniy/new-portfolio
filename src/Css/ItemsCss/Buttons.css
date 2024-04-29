@@ -17,11 +17,12 @@
     background-color: #252b32;
 }
 
-@media (max-width: 480px){
+@media (max-width: 425px){
     .button {
         border-radius: 8px;
         padding: 15px;
         font-size: 12px;
+        font-size: 18px;
     }
 }
 
@@ -30,18 +31,21 @@
 .menuButton {
     display: none;
 }
-@media (max-width: 920px) {
+@media (max-width: 425px) {
     .menuButton {
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        font-size: 18px;
         font-weight: bold;
         color: var(--textColor);
         background-color: var(--bgColorDark);
         padding: 15px;
         height: 60px;
         border: 1px solid var(--textColor);
+        border-left: none;
+        border-right: none;
         transition: all .3s ease;
     }
 }
