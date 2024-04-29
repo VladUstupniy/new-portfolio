@@ -70,11 +70,11 @@
 
 @media (max-width: 425px) {
     .sidebar {
-        height: 100vh;
+        height: 100%;
         width: 100vw;
         position: absolute;
         left: -100%;
-        top: 135px;
+        top: 145px;
     }
     .sidebarUnvisible {
         left: -100%;
